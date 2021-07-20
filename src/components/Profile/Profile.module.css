@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profile {
+  width: 500px;
+  height: auto;
+  padding: 80px;
+  margin: 0 auto;
+  background-color: #ebf0f3;
+  border: 1px solid grey;
+}
+
+.profileCard {
+  margin: 0 auto;
+  padding: 30px 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+.profileImg {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tag {
+  font-size: 18px;
+  line-height: 24px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 18px;
+  line-height: 24px;
+  color: grey;
+  text-align: center;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 2px solid #a6b0b3;
+  background-color: #c7e7f0;
+}
+
+.stats li {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: calc((100% - 3 * 10px) / 3);
+  padding: 5px;
+}
+
+.stats li:not(:last-child) {
+  border-right: 2px solid #a6b0b3;
+}
+.label {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  color: #5f9ea0;
+}
+.quantity {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
